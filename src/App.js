@@ -26,45 +26,45 @@ function App() {
   return (
     <Box sx={{ flexGrow: 1 }}>
       <Grid container spacing={2}>
-        <Grid item xs={6} md={4}>
+        <Grid item xs={12} md={4}>
           <Item>
             <BarChart/>
           </Item>
         </Grid>
-        <Grid item xs={6} md={4}>
+        <Grid item xs={12} md={4}>
           <Item>
             <PieChart/>
           </Item>
         </Grid>
-        <Grid item xs={6} md={4}>
+        <Grid item xs={12} md={4}>
           <Item>
             <DynamicDataChart/>
           </Item>
         </Grid>
-        <Grid item xs={6} md={4}>
+        <Grid item xs={12} md={4}>
           <Item>
             <StackedChartData/>
           </Item>
         </Grid>
        
-        <Grid item xs={6} md={4}>
+        <Grid item xs={12} md={4}>
           <Item>
             <FunnelChart/>
             </Item>
         </Grid>
-        <Grid item xs={6} md={4}>
+        <Grid item xs={12} md={4}>
           <Item>
             <MultiSetBar/>
            
           </Item>
         </Grid>
-        <Grid item xs={6} md={8}>
+        <Grid item xs={12} md={8}>
           <Item>
             <StackedLine/>
            
           </Item>
         </Grid>
-        <Grid item xs={6} md={4}>
+        <Grid item xs={12} md={4}>
           <Item>
             
             <LineChart/>
